@@ -94,6 +94,9 @@ news-app/
 │   ├── components/
 │   │   ├── NavBar.js
 │   │   ├── News.js
+|   |   ├── NewsItem.js
+|   |   ├── NavBar.js
+|   |   ├── Spinner.js
 │   ├── App.css
 │   ├── App.js
 │   ├── index.css
