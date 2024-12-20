@@ -29,8 +29,8 @@ export class NewsItem extends Component {
         <Typography variant="body2" color="text.secondary">
          {this.props.description}...
         </Typography>
-        <Typography class="card-text"><small class="text-muted">By {this.props.author}</small></Typography>
-        <Typography class="card-text"><small class="text-muted"> on {new Date(this.props.date).toGMTString()}</small></Typography>
+        <Typography className="card-text"><small className="text-muted">By {this.props.author}</small></Typography>
+        <Typography className="card-text"><small className="text-muted"> on {new Date(this.props.date).toGMTString()}</small></Typography>
       </CardContent>
       
       {/* Card Actions: This is where you can add buttons or action links */}
